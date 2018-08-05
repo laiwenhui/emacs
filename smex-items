@@ -1,0 +1,20 @@
+
+;; ----- smex-history -----
+(
+ helm-multi-files
+ apropos
+ helm-show-kill-ring
+ package-delete
+ package-install
+ cd
+ 5x5
+)
+
+;; ----- smex-data -----
+(
+ (package-install . 1)
+ (package-delete . 1)
+ (helm-show-kill-ring . 1)
+ (apropos . 1)
+ (helm-multi-files . 1)
+)

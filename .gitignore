@@ -1,0 +1,14 @@
+*.elc
+auto-save-list
+recentf
+.DS_Store
+semanticdb
+eshell
+elpa
+.cache
+ido.last
+ac-comphist.dat
+ede-projects.el
+savefile
+smex-items 
+.SynologyWorkingDirectory

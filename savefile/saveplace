@@ -1,0 +1,6 @@
+;;; -*- coding: utf-8 -*-
+(("/Users/laiwen/.emacs.d/modules/" . 194)
+ ("/Users/laiwen/.emacs.d/init.el" . 107)
+ ("/Users/laiwen/.emacs.d/"
+  (dired-filename . "/Users/laiwen/.emacs.d/init-base-config.el"))
+ ("/Users/laiwen/.emacs.d/savefile/recentf" . 303))
