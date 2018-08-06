@@ -18,7 +18,9 @@
 (global-set-key (kbd "C-c g  g") 'google)
 (global-set-key (kbd "C-c g t") 'google-translate-smooth-translate)
 
+
+;;(create-file-buffer "~/.emacs.d")
 ;;(dired "~/MyNotes")
-(dired "~/.emacs.d")
+;;(dired "~/.emacs.d")
 
 (provide 'init-last-config)

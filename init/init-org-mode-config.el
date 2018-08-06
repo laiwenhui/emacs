@@ -1,15 +1,8 @@
-(setq load-path (cons "/Users/laiwen/.emacs.d/modules/emacs-htmlize" load-path))
-(setq load-path (cons "/Users/laiwen/.emacs.d/modules/xml-rpc-el" load-path))
-(setq load-path (cons "/Users/laiwen/.emacs.d/modules/metaweblog" load-path))
 (setq load-path (cons "/Users/laiwen/.emacs.d/modules/org2blog" load-path))
-
 
 (require 'org)
 (require 'org-install)
 (require 'org2blog-autoloads)
-(require 'metaweblog)
-(require 'xml-rpc)
-(require 'htmlize)
 
 
 (use-package graphviz-dot-mode
@@ -19,6 +12,16 @@
   :ensure t
   :config
   (add-hook 'org-mode-hook (lambda () (org-bullets-mode 1))))
+
+(use-package metaweblog
+  :ensure t)
+
+(use-package xml-rpc
+  :ensure t)
+
+(use-package htmlize 
+  :ensure t)
+
 
 
 (add-hook 'org-mode-hook 'turn-on-font-lock)
@@ -98,10 +101,9 @@
 (global-set-key (kbd "C-c a a") 'org-agenda)
 (global-set-key (kbd "C-c a c") 'org-capture)
 
-(add-hook 'org-agenda-mode-hook '(lambda ()
-                                   (define-key org-agenda-mode-map (kbd "C-c a t") 'org-agenda-todo)))
 
-
+(define-key org-mode-map (kbd "C-c a t") 'org-todo)
+;;(org-defkey org-agenda-mode-map "C-c a t" 'org-agenda-todo)
 
 (defun get-year-and-month ()
   (list (format-time-string "%Y年") (format-time-string "%m月")))
@@ -163,26 +165,26 @@
 
   (setq org-capture-templates nil)
 
-  (add-to-list 'org-capture-templates
+(add-to-list 'org-capture-templates
                '("p" "Personal things" entry (file+headline "~/org/gtd/home.org" "inbox") "*  %?\n  %T\n  %a"))
 
   (add-to-list 'org-capture-templates
-
              '("w" "Work things" entry (file+headline "~/org/gtd/work.org" "inbox") "*  %?\n  %T\n  %a"))
 
   (add-to-list 'org-capture-templates
              '("i" "Ideas" entry (file+headline "" "Ideas") "* %? \n  %T\n  %a"))
-
 
   (add-to-list 'org-capture-templates
                '("b" "Billing" plain
                  (file+function "~/org/gtd/billing.org" find-month-tree)
                  " | %U | %^{类别} | %^{描述} | %^{金额} |" :kill-buffer t))
 
+  (add-to-list 'org-capture-templates
+               '("t" "Technical Support" plain
+                 (file+function "~/org/gtd/TechnicalSupport.org" find-month-tree)
+                 "| %^{区域} | %^{沟通方式} | %^{人员} | %^{问题}| %^{处理}| %U|":kill-buffer t))
 
-
-
-(org-agenda-list t)
+;;(org-agenda-list t)
 
 ;;================================================================
 (provide 'init-org-mode-config)

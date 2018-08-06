@@ -1,11 +1,10 @@
-
-(add-to-list 'load-path "/Users/laiwen/.emacs.d/modules/helm")
 (add-to-list 'load-path "/Users/laiwen/.emacs.d/modules/emacs-async")
 (add-to-list 'load-path "/Users/laiwen/.emacs.d/modules/popup-el")
 (autoload 'dired-async-mode "dired-async.el" nil t)
 
-(require 'helm)
-(require 'helm-config)
+(use-package helm
+  :ensure t)
+
 (use-package helm-projectile
   :ensure t
   :config
