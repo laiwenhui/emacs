@@ -3,6 +3,7 @@
 ;;设置网络
 (setq package-archives '(("gnu"   . "http://mirrors.tuna.tsinghua.edu.cn/elpa/gnu/")
                          ("melpa" . "http://mirrors.tuna.tsinghua.edu.cn/elpa/melpa/")))
+
 (setq url-gateway-method 'socks)
 (setq socks-server '("Default server" "127.0.0.1" 1080 5))
 
@@ -50,8 +51,6 @@
 (size-indication-mode t)
 (global-hl-line-mode t)
 
-;;括号配对
-(add-hook 'emacs-lisp-mode-hook 'show-paren-mode)
 
 ;;取消自动备份
 (setq make-backup-files nil)
@@ -71,12 +70,17 @@
                (if buffer-read-only (local-set-key  "u" 'scroll-down-command)   (local-unset-key (kbd "u")))
                (if buffer-read-only (local-set-key  "f" 'forward-char)          (local-unset-key (kbd "f")))
                (if buffer-read-only (local-set-key  "b" 'backward-char)         (local-unset-key (kbd "b")))
+               (if buffer-read-only (local-set-key  "l" 'recenter-top-bottom)   (local-unset-key (kbd "l")))
+               (if buffer-read-only (local-set-key  "i" 'my-set-read-only-mode)   (local-unset-key (kbd "i")))
+               (if buffer-read-only (local-set-key  "e" 'move-end-of-line)   (local-unset-key (kbd "e")))
+               (if buffer-read-only (local-set-key  "a" 'move-beginning-of-line)   (local-unset-key (kbd "a")))
+
                ))
 
 ;;注释
 (global-set-key (kbd "C-x C-/") 'comment-or-uncomment-region)
 
-(electric-pair-mode t)
+
 
 
 
@@ -170,10 +174,33 @@
 
 
 
-;;最后打开我的笔记
+(use-package highlight-parentheses
+  :ensure t
+  :config
+  (define-globalized-minor-mode global-highlight-parentheses-mode
+  highlight-parentheses-mode
+  (lambda ()
+    (highlight-parentheses-mode t)))
+  (global-highlight-parentheses-mode t)
+  )
 
-;;(helm dired "~/MyNotes")
-;;(dired "~/.emacs.d")
+;;自动添加括号、""等
+(use-package autopair
+  :ensure t
+  :config
+  (autopair-global-mode t))
+
+;; (electric-pair-mode t)
+;; (setq electric-pair-pairs '(
+;;                             (?\" . ?\")
+;;                             (?\` . ?\`)
+;;                             (?\( . ?\))
+;;                             (?\{ . ?\})
+;;                             ))
+
+;;括号配对
+;;(add-hook 'emacs-lisp-mode-hook 'show-paren-mode)
+;;(setq skeleton-pair t)
 
 ;;===============================================
 (provide 'init-base-config)

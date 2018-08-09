@@ -62,15 +62,35 @@
   (setq helm-grep-default-command "ack-grep -Hn --no-group --no-color %e %p %f"
         helm-grep-default-recurse-command "ack-grep -H --no-group --no-color %e %p %f"))
 
+;;功能未实现
+(defun helm-find-files-readonly ()
 
+  (interactive)
+
+  (setq my-current-buffer (get-buffer (buffer-name)))
+   (setq my-current-file  (buffer-file-name my-current-buffer))
+   
+  (if (eq my-current-file nil)
+      (setq my-current-file  default-directory))
+
+  (setq my-new-buffer (helm-find-files-1 my-current-file))
+ 
+  (setq my-new-file  (buffer-file-name my-new-buffer))
+ (message "my new file %s" my-new-file) 
+  (if (file-exists-p my-new-file) 
+      (progn (message "set read only mode")
+             (read-only-mode t))))
 
 ;;配置helm
-(global-set-key [remap isearch-backward-regexp] 'helm-occur)
+(global-set-key [remap isearch-backward-regexp] 'projectile-replace)
 (global-set-key [remap isearch-forward-regexp] 'helm-occur)
 (global-set-key (kbd "M-y") 'helm-show-kill-ring)
 (global-set-key (kbd "C-x b") 'helm-mini)
 (global-set-key (kbd "M-x") #'helm-M-x)
 (global-set-key (kbd "C-x C-f") #'helm-find-files)
+(global-set-key [remap bookmark-set] 'helm-bookmarks)
+(define-key helm-map (kbd "<tab>") 'helm-execute-persistent-action)
+
 
 (add-hook
  'dired-mode-hook 

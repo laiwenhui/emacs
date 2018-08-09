@@ -19,8 +19,33 @@
 (global-set-key (kbd "C-c g t") 'google-translate-smooth-translate)
 
 
-;;(create-file-buffer "~/.emacs.d")
-;;(dired "~/MyNotes")
+
+(eval-after-load 'google-translate-core
+  '(setq google-translate-base-url "http://translate.google.cn/translate_a/single"
+         google-translate-listen-url "http://translate.google.cn/translate_tts"))
+
+(eval-after-load 'google-translate-tk
+  '(setq google-translate--tkk-url "http://translate.google.cn/"))
+
+
+(defun my-set-read-only-mode()
+  "define read only mode"
+  (interactive)
+  (buffer-local-value 'buffer-read-only (get-buffer (buffer-name)))
+  (if (eq  buffer-read-only t)
+      (progn
+        (message "set writeable ")
+        (read-only-mode -1))
+    (progn
+      (message "set readonly")
+      (read-only-mode t))))
+
+
+( global-set-key (kbd "\e \e") 'my-set-read-only-mode)
+
+;;最后打开我的笔记
+(dired "~/MyNotes")
 ;;(dired "~/.emacs.d")
+
 
 (provide 'init-last-config)

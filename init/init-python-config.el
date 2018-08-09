@@ -32,7 +32,7 @@
         python-indent-guess-indent-offset nil
         default-tab-width 4
         ;; 设置 run-python 的参数
-        python-shell-interpreter  "/Users/laiwen/anaconda/bin/ipython3"
+        python-shell-interpreter  "~/anaconda/bin/ipython3"
         python-shell-interpreter-args "-i"
         python-shell-prompt-regexp "In \\[[0-9]+\\]: "
         python-shell-prompt-output-regexp "Out\\[[0-9]+\\]: "
@@ -41,6 +41,9 @@
         python-shell-completion-string-code "';'.join(get_ipython().Completer.all_completions('''%s'''))\n")
 
 (add-to-list 'auto-mode-alist '("\\.py\\'" . python-mode))
+
+
+
 
 (setenv "IPY_TEST_SIMPLE_PROMPT" "1")
 (setenv "LC_ALL" "en_US.UTF-8")
