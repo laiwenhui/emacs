@@ -1,3 +1,5 @@
+;;;****************************************
+
 (use-package google-translate
   :ensure t
   )
@@ -15,8 +17,8 @@
         (buffer-substring (region-beginning) (region-end))
       (read-string "Google: ")))))
 
-(global-set-key (kbd "C-c g  g") 'google)
-(global-set-key (kbd "C-c g t") 'google-translate-smooth-translate)
+;; (global-set-key (kbd "C-c g g") 'google)
+;; (global-set-key (kbd "C-c g t") 'google-translate-smooth-translate)
 
 
 
@@ -41,11 +43,26 @@
       (read-only-mode t))))
 
 
-( global-set-key (kbd "\e \e") 'my-set-read-only-mode)
-
-;;最后打开我的笔记
-(dired "~/MyNotes")
-;;(dired "~/.emacs.d")
+;;( global-set-key (kbd "\e \e") 'my-set-read-only-mode)
 
 
-(provide 'init-last-config)
+(defun browse-file-directory ()
+    "Open the current file's directory however the OS would."
+    (interactive)
+    (if default-directory
+        (browse-url-of-file (expand-file-name default-directory))
+      (error "No `default-directory' to open")))
+
+
+
+;; (global-set-key (kbd "C-c d o") 'browse-file-directory)
+;; (define-key ibuffer-mode-map (kbd "C-x C-f") 'helm-find-files)
+
+
+
+
+
+
+
+
+(provide 'init-customize-config)

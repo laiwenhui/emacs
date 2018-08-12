@@ -1,0 +1,35 @@
+;;;; Emacs Bookmark Format Version 1 ;;;; -*- coding: no-conversion -*- 
+;;; This format is meant to be slightly human-readable;
+;;; nevertheless, you probably don't want to edit it.
+;;; -*- End Of Bookmark File Format Version Stamp -*-
+(("test.py"
+ (filename . "~/MyNotes/technique/python/test.py")
+ (front-context-string . "from functools i")
+ (rear-context-string)
+ (position . 1))
+("last-config"
+ (filename . "~/.emacs.d/init/init-last-config.el")
+ (front-context-string . "(dired \"~/MyNote")
+ (rear-context-string . "de)\n\n;;\346\234\200\345\220\216\346\211\223\345\274\200\346\210\221\347\232\204\347\254\224\350\256\260\n")
+ (position . 1258))
+("improve"
+ (filename . "~/MyNotes/improve/personal.org")
+ (front-context-string)
+ (rear-context-string . "\345\212\241\347\256\241\347\220\206\n\n\n\345\273\272\347\253\213\345\267\245\347\250\213\345\217\257\345\220\216\346\202\224\345\217\257\345\217\215\345\244\215")
+ (position . 3245))
+("python-learning"
+ (filename . "~/MyNotes/technique/python/python.org")
+ (front-context-string)
+ (rear-context-string . ", 101, 122]\n\n** ")
+ (position . 8391))
+("base-config"
+ (filename . "~/.emacs.d/init/init-base-config.el")
+ (front-context-string . "\n\n;;\346\213\254\345\217\267\351\205\215\345\257\271\n;;(add-")
+ (rear-context-string . "              ))")
+ (position . 5518))
+("helm-config"
+ (filename . "~/.emacs.d/init/init-helm-config.el")
+ (front-context-string . "\n\n\n(add-hook\n 'd")
+ (rear-context-string . "'helm-bookmarks)")
+ (position . 3498))
+)

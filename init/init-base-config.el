@@ -63,7 +63,7 @@
 (global-set-key (kbd "M-w") 'kill-region)
 
 (add-hook 'read-only-mode-hook
-            '(lambda ()
+            '(lambda ();;按原始快捷键定义，去掉前缀键，除了上翻页比较特殊
                (if buffer-read-only (local-set-key  "n" 'next-line)             (local-unset-key (kbd "n")))
                (if buffer-read-only (local-set-key  "p" 'previous-line)         (local-unset-key (kbd "p")))
                (if buffer-read-only (local-set-key  "v" 'scroll-up-command)     (local-unset-key (kbd "v")))
@@ -74,6 +74,8 @@
                (if buffer-read-only (local-set-key  "i" 'my-set-read-only-mode)   (local-unset-key (kbd "i")))
                (if buffer-read-only (local-set-key  "e" 'move-end-of-line)   (local-unset-key (kbd "e")))
                (if buffer-read-only (local-set-key  "a" 'move-beginning-of-line)   (local-unset-key (kbd "a")))
+               (if buffer-read-only (local-set-key  "<" 'beginning-of-buffer)   (local-unset-key (kbd "<")))
+               (if buffer-read-only (local-set-key  ">" 'end-of-buffer)   (local-unset-key (kbd ">")))
 
                ))
 
@@ -190,17 +192,28 @@
   :config
   (autopair-global-mode t))
 
-;; (electric-pair-mode t)
-;; (setq electric-pair-pairs '(
-;;                             (?\" . ?\")
-;;                             (?\` . ?\`)
-;;                             (?\( . ?\))
-;;                             (?\{ . ?\})
-;;                             ))
+(use-package markdown-mode
+  :ensure t
+  :config
+  (add-to-list 'auto-mode-alist '("\\.markdown\\'" . markdown-mode))
+  (add-to-list 'auto-mode-alist '("\\.md\\'" . markdown-mode)) )
 
-;;括号配对
-;;(add-hook 'emacs-lisp-mode-hook 'show-paren-mode)
-;;(setq skeleton-pair t)
+(use-package flymd
+  :ensure t
+  :config
+(defun my-flymd-browser-function (url)
+  (let ((process-environment (browse-url-process-environment)))
+    (apply 'start-process
+           (concat "firefox " url)
+           nil
+           "/usr/bin/open"
+           (list "-a" "firefox" url))))
+(setq flymd-browser-open-function 'my-flymd-browser-function))
+  
+
+
+
+  
 
 ;;===============================================
 (provide 'init-base-config)
