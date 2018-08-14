@@ -15,7 +15,7 @@
   :ensure t
   :config
   (helm-projectile-on)
-   ;;(projectile-global-mode)
+;;  (projectile-global-mode)
   )
 
 (helm-autoresize-mode 1)
@@ -87,32 +87,6 @@
   (if (file-exists-p my-new-file) 
       (progn (message "set read only mode")
              (read-only-mode t))))
-
-;;配置helm
-(global-set-key [remap isearch-backward-regexp] 'replace-string)
-(global-set-key [remap isearch-forward-regexp] 'helm-occur)
-(global-set-key (kbd "M-y") 'helm-show-kill-ring)
-(global-set-key (kbd "C-x b") 'helm-mini)
-(global-set-key (kbd "M-x") #'helm-M-x)
-(global-set-key (kbd "C-x C-f") #'helm-find-files)
-(global-set-key [remap bookmark-set] 'helm-bookmarks)
-(define-key helm-map (kbd "<tab>") 'helm-execute-persistent-action)
-(add-hook 'eshell-mode-hook
-          #'(lambda ()
-              (define-key eshell-mode-map (kbd "C-x C-h")  'helm-eshell-history)))
-
-
-;;配置projectile
-(global-set-key (kbd "C-c p p") 'helm-projectile)
-(global-set-key (kbd "C-c p s") 'helm-projectile-switch-project)
-(global-set-key (kbd "C-c p g") 'helm-projectile-grep)
-
-
-
-(add-hook
- 'dired-mode-hook
-    (lambda ()(define-key dired-mode-map (kbd "C-s") 'helm-projectile)
-              (define-key dired-mode-map (kbd "C-r") 'helm-projectile-grep)))
 
 ;;http://tuhdo.github.io/helm-projectile.html
 ;;http://tuhdo.github.io/helm-intro.html

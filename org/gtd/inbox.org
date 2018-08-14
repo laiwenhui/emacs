@@ -1,0 +1,157 @@
+#+STARTUP: overview
+* ideas
+** babyBluetooth 源码学习
+   [2018-07-06 Fri]
+** 链式编程
+   [2018-07-06 Fri]
+** eid 学习
+   <2018-08-14 Tue 09:40>
+  网址：http://eid.cn/index.html 
+* works
+**  T9工作整理与改进
+   <2018-08-14 Tue 16:05>
+**  PBOC文档整理与改进
+   <2018-08-14 Tue 16:06>* personal
+**  高拍仪问题整理与反馈
+   <2018-08-14 Tue 16:07>
+**  人员复用规划
+   <2018-08-14 Tue 16:08>
+**  android镜像制作培训
+   <2018-08-14 Tue 16:08>
+**  专题培训文档整理与规划
+   <2018-08-14 Tue 16:09>
+- [ ] IC 卡
+- [ ] wosa/xfs 
+- [ ] jni与jna
+- [ ] android系统开发
+- [ ] android应用开发
+**  软件平台规划
+   <2018-08-14 Tue 16:13>
+   结合人员复用一起思考
+**  git/gitlab 深度应用研究与推广
+   <2018-08-14 Tue 16:14>
+   [[file:~/.emacs.d/org/gtd/inbox.org::*%E4%B8%93%E9%A2%98%E5%9F%B9%E8%AE%AD%E6%96%87%E6%A1%A3%E6%95%B4%E7%90%86%E4%B8%8E%E8%A7%84%E5%88%92][专题培训文档整理与规划]]
+**  虹软活体检测
+   <2018-08-14 Tue 16:40>
+   [[file:~/MyNotes/][file:~/MyNotes/]]
+* shopping
+* reminder
+:PROPERTIES:
+:CATEGORY: work reminder
+:END:
+
+:PROPERTIES:
+:CATEGORY: personal reminder
+:END:
+** [#A] 房贷-工行   <2018-09-06 Thu +1m>
+   :PROPERTIES:
+   :LAST_REPEAT: [2018-08-06 Mon 10:52]
+   :END:
+   - State "Finish"     from ""           [2018-08-06 Mon 10:52]
+   - State "Finish"     from ""           [2018-07-06 Fri 13:01]
+** [#A] 装修贷-建行 <2018-08-27 Mon +1m>
+   :PROPERTIES:
+   :LAST_REPEAT: [2018-07-27 Fri 09:31]
+   :END:
+   - State "Finish"     from ""           [2018-07-27 Fri 09:31]
+** [#A] 闪电贷-招行 <2018-09-01 Sat +1m>
+   :PROPERTIES:
+   :LAST_REPEAT: [2018-07-31 Tue 09:33]
+   :END:
+   - State "Finish"     from ""           [2018-07-31 Tue 09:33]
+** [#A] 信用卡-招行 <2018-09-09 Sun +1m>
+   :PROPERTIES:
+   :LAST_REPEAT: [2018-08-10 Fri 13:41]
+   :END:
+   - State "Finish"     from ""           [2018-08-10 Fri 13:41]
+   - State "Finish"     from ""           [2018-07-09 Mon 14:19]
+f
+
+* someday
+** Work paper reading                                         
+** Work 技术文档编写
+** Work 阅读错乱的问题
+** Work learn  tftp protocol
+** Work create a vpn project
+** Work Getting started with Android
+** Work network program one chapter
+
+** Work uml 学习
+
+** Work ReactiveCocoa
+   [2018-07-06 Fri 17:49]
+   [[file:~/MyNotes/technique/Chain-Programming/note.org::*%E5%9F%BA%E6%9C%AC%E5%8E%9F%E7%90%86][基本原理]]
+
+* work-week
+:PROPERTIES:
+:CATEGORY: work-week
+:END:
+** Started iOS pattern one chapter
+   DEADLINE: <2018-07-05 Thu>
+   - State "Started"    from "Delayed"    [2018-08-14 Tue 09:13]
+   - State "Delayed"    from "Started"    [2018-07-25 Wed 09:15]
+   - State "Started"    from "Delayed"    [2018-07-23 Mon 17:22]
+
+* work-today
+:PROPERTIES:
+:CATEGORY: work-today
+:END:
+** Finish 蓝牙音频传输
+   DEADLINE: <2018-07-26 Thu 18:00>
+
+   - State "Finish"     from "Delayed"    [2018-08-13 Mon 17:07]
+** Work 编写babyBlueTooth测试程序
+   DEADLINE: <2018-07-26 Thu 18:00>
+
+** Delayed 发卡箱java通用文档
+   SCHEDULED: <2018-07-26 Thu 18:00>
+   - State "Delayed"    from "Started"    [2018-08-06 Mon 14:12] \\
+     插上任务安排
+** Personal 深入理解Mac OSX及iOS  6-7章
+   DEADLINE: <2018-08-05 Sun>
+** Finish learnning english and plan
+   DEADLINE: <2018-08-08 Wed>
+** Finish learning python 
+   DEADLINE: <2018-08-10 Fri 23:00>
+** Delayed M10海外项目
+   SCHEDULED: <2018-09-10 Mon> DEADLINE: <2018-08-21 Tue 12:00>
+   - State "Delayed"    from "Started"    [2018-08-10 Fri 13:40] \\
+     等邹池过来讨论项目
+** Finish 电子发票
+   DEADLINE: <2018-08-10 Fri 12:00>
+** Delayed 与张总讨论印控仪项目问题[1/2]
+   DEADLINE: <2018-08-14 Tue 15:00> SCHEDULED: <2018-08-14 Tue 09:10>
+   - State "Delayed"    from "Work"       [2018-08-14 Tue 16:04] \\
+     张总会客没空
+- [X] 先看看陈文斌的PPT
+- [ ] 下午找张总聊一下
+** Started Document System
+   DEADLINE: <2018-08-14 Tue 18:00> SCHEDULED: <2018-08-14 Tue 09:13>
+** Finish Practice typing
+   SCHEDULED: <2018-08-14 Tue 12:00> DEADLINE: <2018-08-14 Tue 12:20>
+** Finish learning Python
+   DEADLINE: <2018-08-14 Tue 18:00>
+** Personal 量化京东
+   DEADLINE: <2018-08-14 Tue 23:00>
+** Work iOS 复盘
+** Work learning elisp and tex
+** Personal learning english
+** Started work check\ todolist \ review[0/3]
+   DEADLINE: <2018-08-14 Tue 18:00>
+- [ ] check
+- [ ] todo list 
+- [ ] review
+** Started workFlow
+   DEADLINE: <2018-08-14 Tue 18:00>
+
+** Work eID 卡片预研[0/1]
+   DEADLINE: <2018-08-17 Tue 18:00>
+- [ ] 安排张晓燕处理并周五给出预研报告
+
+	
+* personal
+**  learning PMP
+   <2018-08-14 Tue 16:07>
+**  python 自动补齐功能
+   <2018-08-14 Tue 16:41>
+   [[file:~/MyNotes/][file:~/MyNotes/]]

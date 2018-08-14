@@ -36,7 +36,7 @@
 (setq org-plantuml-jar-path
         (expand-file-name "/usr/local/Cellar/plantuml/8057/libexec/plantuml.jar")
         )
-(setq org-ditaa-jar-path "/Users/laiwen/MyLibs/ditaa0_9/ditaa.jar")
+(setq org-ditaa-jar-path "~/MyLibs/ditaa0_9/ditaa.jar")
 
 
 (setq org-src-fontify-natively t)
@@ -102,8 +102,8 @@
 (global-set-key (kbd "C-c a c") 'org-capture)
 
 
-(define-key org-mode-map (kbd "C-c a t") 'org-todo)
-;;(org-defkey org-agenda-mode-map "C-c a t" 'org-agenda-todo)
+;;(define-key org-mode-map (kbd "C-c a t") 'org-todo)
+
 
 (defun get-year-and-month ()
   (list (format-time-string "%Y年") (format-time-string "%m月")))
@@ -130,11 +130,9 @@
       (setq end (save-excursion (org-end-of-subtree t t))))
     (org-end-of-subtree)))
 
-  (setq org-directory "~/org/gtd")
-  (setq org-default-notes-file (concat org-directory "/inbox.org"))
-  (setq org-agenda-files (list "~/org/gtd/someday.org"
-                               "~/org/gtd/home.org"
-                               "~/org/gtd/work.org"))
+  (setq org-directory "~/.emacs.d/org/gtd/")
+  (setq org-default-notes-file (concat org-directory "inbox.org"))
+  (setq org-agenda-files (list "~/.emacs.d/org/gtd/inbox.org"))
 
   (setq org-todo-keywords '((sequence "Work(w)"
                                       "Tracking(t@/!)"
@@ -166,22 +164,22 @@
   (setq org-capture-templates nil)
 
 (add-to-list 'org-capture-templates
-               '("p" "Personal things" entry (file+headline "~/org/gtd/home.org" "inbox") "*  %?\n  %T\n  %a"))
+               '("p" "Personal things" entry (file+headline "~/.emacs.d/org/gtd/inbox.org" "personal") "*  %?\n  %T\n  %a"))
 
   (add-to-list 'org-capture-templates
-             '("w" "Work things" entry (file+headline "~/org/gtd/work.org" "inbox") "*  %?\n  %T\n  %a"))
+             '("w" "Work things" entry (file+headline "~/.emacs.d/org/gtd/inbox.org" "works") "*  %?\n  %T\n  %a"))
 
   (add-to-list 'org-capture-templates
-             '("i" "Ideas" entry (file+headline "" "Ideas") "* %? \n  %T\n  %a"))
+             '("i" "Ideas" entry (file+headline "" "ideas") "* %? \n  %T\n  %a"))
 
   (add-to-list 'org-capture-templates
                '("b" "Billing" plain
-                 (file+function "~/org/gtd/billing.org" find-month-tree)
+                 (file+function "~/.emacs.d/org/gtd/billing.org" find-month-tree)
                  " | %U | %^{类别} | %^{描述} | %^{金额} |" :kill-buffer t))
 
   (add-to-list 'org-capture-templates
                '("t" "Technical Support" plain
-                 (file+function "~/org/gtd/TechnicalSupport.org" find-month-tree)
+                 (file+function "~/.emacs.d/org/gtd/TechnicalSupport.org" find-month-tree)
                  "| %^{区域} | %^{沟通方式} | %^{人员} | %^{问题}| %^{处理}| %U|":kill-buffer t))
 
 ;;(org-agenda-list t)
