@@ -1,7 +1,5 @@
 (setq load-path (cons "~/.emacs.d/modules/org2blog" load-path))
-
-
-
+(load "~/.emacs.d/modules/next-spec-day.el" )
 
 (require 'org)
 (require 'org-install)
@@ -250,6 +248,26 @@
 
 (setq mark-holidays-in-calendar t)
 (setq org-agenda-include-diary t)
+
+
+
+;;========================================================================================
+
+(use-package cdlatex
+  :ensure t
+  :config
+  (add-hook 'LaTeX-mode-hook 'turn-on-cdlatex)   ; with AUCTeX LaTeX mode
+  (add-hook 'latex-mode-hook 'turn-on-cdlatex)   ; with Emacs latex mode)
+)
+
+
+
+(load "auctex.el" nil t t)
+
+
+
+
+
 
 
 

@@ -82,7 +82,7 @@
 
 
 ;;最后打开我的笔记
-(dired "~/MyNotes")
-;;(dired "~/.emacs.d")
+;;(dired "~/MyNotes")
+(dired "~/.emacs.d")
 
 (provide 'init-shortcut-config)

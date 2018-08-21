@@ -1,10 +1,3 @@
-
-;; Added by Package.el.  This must come before configurations of
-;; installed packages.  Don't delete this line.  If you don't want it,
-;; just comment it out by adding a semicolon to the start of the line.
-;; You may delete these explanatory comments.
-(package-initialize)
-
 (defvar devotee-root-dir (file-name-directory load-file-name)
   "The root dir of the Emacs devotee distribution.")
 
@@ -19,21 +12,24 @@
 
 ;;============================================================
 (require 'init-spacemacs-theme-config)
+(require 'init-company-config)
 (require 'init-avy-config)
 (require 'init-ace-window-config)
+(require 'init-org-mode-config)
 (require 'init-magit-config)
 (require 'init-dash-config)
 (require 'init-which-key-config)
 (require 'init-easy-kill-config)
 (require 'init-yasnippet-config)
 (require 'init-undo-tree-config)
+(require 'init-helm-config)
+;;(require 'init-auto-complete-config)
 ;;=========================================================================
 ;;(require 'init-c-lang-config)
-(require 'init-helm-config)
-(require 'init-company-config)
-(require 'init-org-mode-config)
 (require 'init-python-config)
-(require 'init-auctex-config)
+
+
+
 ;;=======================================
 (require 'init-customize-config)
 (require 'init-shortcut-config)
@@ -48,7 +44,7 @@
  ;; If there is more than one, they won't work right.
  '(package-selected-packages
    (quote
-    (company-auctex Pymacs python-mode ox-latex cal-china-x latex-preview-pane latex-math-preview cdlatex helm-replace-string better-defaults company-anaconda multiple-cursors erc-terminal-notifier org-pomodoro tex auctex ag helm-projectile-ag projectile-ag helm-descbinds helm-dash flx-ido helm-ag markdown-mode flymd autopair helm-google graphviz-dot-mode anaconda-mode treemacs-projectile treemacs spacemacs-theme))))
+    (python-mode ox-latex cal-china-x latex-preview-pane latex-math-preview cdlatex helm-replace-string better-defaults company-anaconda multiple-cursors erc-terminal-notifier org-pomodoro tex auctex ag helm-projectile-ag projectile-ag helm-descbinds helm-dash flx-ido helm-ag markdown-mode flymd autopair helm-google graphviz-dot-mode anaconda-mode treemacs-projectile treemacs spacemacs-theme))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.

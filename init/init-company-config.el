@@ -1,48 +1,57 @@
+;; (use-package company
+;; :ensure t
+;; :config
+;; (setq company-idle-delay 0.5)
+;; (setq company-show-numbers t)
+;; (setq company-tooltip-limit 10)
+;; (setq company-minimum-prefix-length 2)
+;; (setq company-tooltip-align-annotations t)
+;; (setq company-tooltip-flip-when-above t)
+;; (global-company-mode t))
+
+;; (use-package company-irony
+;; :ensure t
+;; :config 
+;; (add-to-list 'company-backends 'company-irony))
+
+;; (use-package irony
+;; :ensure t
+;; :config
+;; (add-hook 'c++-mode-hook 'irony-mode)
+;; (add-hook 'c-mode-hook 'irony-mode)
+;; (add-hook 'irony-mode-hook 'irony-cdb-autosetup-compile-options))
+
+;; (use-package irony-eldoc
+;; :ensure t
+;; :config
+;; (add-hook 'irony-mode-hook #'irony-eldoc))
+
+
+;; (add-hook 'after-init-hook 'global-company-mode)
+
+;; (global-set-key (kbd "<tab>") 'company-complete-common)
+;; (define-key company-active-map (kbd "C-n") 'company-select-next)
+;; (define-key company-active-map (kbd "C-p") 'company-select-previous)
+
+
 (use-package company
-:ensure t
-:config
-(setq company-idle-delay 0.5)
-(setq company-show-numbers t)
-(setq company-tooltip-limit 10)
-(setq company-minimum-prefix-length 2)
-(setq company-tooltip-align-annotations t)
-(setq company-tooltip-flip-when-above t)
-(global-company-mode t))
-
-(use-package company-irony
-:ensure t
-:config 
-(add-to-list 'company-backends 'company-irony))
-
-(use-package irony
-:ensure t
-:config
-(add-hook 'c++-mode-hook 'irony-mode)
-(add-hook 'c-mode-hook 'irony-mode)
-(add-hook 'irony-mode-hook 'irony-cdb-autosetup-compile-options))
-
-(use-package irony-eldoc
-:ensure t
-:config
-(add-hook 'irony-mode-hook #'irony-eldoc))
-
-;; (use-package company-jedi
-;;     :ensure t
-;;     :config
-;;     (add-hook 'python-mode-hook 'jedi:setup))
-
-;; (defun my/python-mode-hook ()
-;;   (add-to-list 'company-backends 'company-jedi))
-
-;; (add-hook 'python-mode-hook 'my/python-mode-hook)
-
-(add-hook 'after-init-hook 'global-company-mode)
-
-(global-set-key (kbd "<tab>") 'company-complete-common)
-(define-key company-active-map (kbd "C-n") 'company-select-next)
-(define-key company-active-map (kbd "C-p") 'company-select-previous)
-
-
+  :ensure t
+  :config
+  (setq company-minimum-prefix-length 2)
+  (setq company-dabbrev-ignore-case t)
+  (setq company-idle-delay 0.5)
+  (setq company-show-numbers t)
+  (setq company-tooltip-limit 10)
+  (setq company-minimum-prefix-length 2)
+  (setq company-tooltip-align-annotations t)
+  (setq company-tooltip-flip-when-above t)
+  (global-company-mode t)
+  (add-hook 'after-init-hook 'global-company-mode)
+  (define-key company-active-map (kbd "C-n") #'company-select-next)
+  (define-key company-active-map (kbd "C-p") #'company-select-previous)
+  (define-key company-active-map (kbd "C-s") #'company-filter-candidates)
+  (global-set-key (kbd "C-c y") 'company-yasnippet)
+  )
 
 ;;http://company-mode.github.io/
 ;;================================================================

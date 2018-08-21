@@ -1,7 +1,4 @@
-(setq load-path (cons "~/.emacs.d/modules/org2blog" load-path))
-
-
-
+(setq load-path (cons "/Users/laiwen/.emacs.d/modules/org2blog" load-path))
 
 (require 'org)
 (require 'org-install)
@@ -82,6 +79,27 @@
 (require 'ox-latex)
 (setq org-latex-listings t)
 (setq org-export-latex-listings t)
+(setq org-completion-use-ido t)
+
+
+
+
+
+(setq org-latex-to-pdf-process
+'("xelatex -interaction nonstopmode %f"
+"xelatex -interaction nonstopmode %f"))
+
+
+(defun org-mode-article-modes ()
+  (reftex-mode t)
+  (and (buffer-file-name)
+       (file-exists-p (buffer-file-name))
+       (reftex-parse-all)))
+(add-hook 'org-mode-hook
+          (lambda ()
+            (if (member "REFTEX" org-todo-keywords-1)
+                (org-mode-article-modes))))
+
 (unless (boundp 'org-export-latex-classes)
   (setq org-export-latex-classes nil))
 (add-to-list 'org-latex-packages-alist '("" "listings"))
@@ -182,17 +200,20 @@
   (setq org-default-notes-file (concat org-directory "inbox.org"))
   (setq org-agenda-files (list "~/.emacs.d/org/gtd/inbox.org"))
 
-(setq org-todo-keywords '((sequence
-                           "Plan(p!)"
-                           "Todo(t)"
-                           "Delayed(d@/!)"
-                           "Next(n!)"
-                           "Started(s!)"
-                           "|"
-                           "Finish(f@/!)"
-                           "Cancelled(c@/!)")))
+(setq org-todo-keywords '((type "工作(g!)" "学习(x!)" "休闲(x!)" "|") 
+                          (sequence "Todo(t)"
+                                      "Delayed(d@/!)"
+                                      "Plan(p!)"
+                                      "Next(n!)"
+                                      "Started(s!)"
+                                      "|"
+                                      "Finish(f@/!)"
+                                      "Cancelled(c@/!)")))
   (setf org-todo-keyword-faces
         '(
+          ("工作" . (:background "red" :foreground "white" :weight bold)) 
+          ("学习" . (:background "white" :foreground "red" :weight bold)) 
+          ("休闲" . (:foreground "MediumBlue" :weight bold))
           ("Next" . (:foreground "yellow" :bold t :weight bold))
           ("Todo" . (:foreground "#81D4FA" :bold t :weight bold))
           ("Plan" . (:foreground "#9933FF" :bold t :weight bold))
@@ -250,6 +271,26 @@
 
 (setq mark-holidays-in-calendar t)
 (setq org-agenda-include-diary t)
+
+
+
+;;========================================================================================
+
+(use-package cdlatex
+  :ensure t
+  :config
+  (add-hook 'LaTeX-mode-hook 'turn-on-cdlatex)   ; with AUCTeX LaTeX mode
+  (add-hook 'latex-mode-hook 'turn-on-cdlatex)   ; with Emacs latex mode)
+)
+
+
+
+(load "auctex.el" nil t t)
+
+
+
+
+
 
 
 

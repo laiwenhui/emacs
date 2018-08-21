@@ -86,15 +86,9 @@
   SCHEDULED: <2018-08-24 Fri 09:00-10:00 +1w>
   
 
-** Plan Typing practice
-   SCHEDULED:<2018-08-22 Wed 12:00-12:20 +1d>
-   :PROPERTIES:
-   :LAST_REPEAT: [2018-08-21 Tue 22:30]
-   :END:
+** Todo Typing practice
+   SCHEDULED:<2018-08-21 Tue 12:00-12:20 +1d>
 
-   - State "Finish"     from "Started"    [2018-08-21 Tue 22:30] \\
-     已经练习
-   - State "Started"    from "Todo"       [2018-08-21 Tue 22:20]
 ** Todo learning english 
   SCHEDULED: <2018-08-21 Tue 12:20-12:50 +1d>
 
@@ -401,12 +395,10 @@
 ** Plan logical thinking one chapter
 ** Plan withdraw money
    DEADLINE: <2018-08-21 Tue 12:10>
-** Finish learning LaTex
-   CLOSED: [2018-08-21 Tue 16:32] DEADLINE: <2018-08-21 Tue 18:00>
-   - State "Finish"     from "Started"    [2018-08-21 Tue 16:32] \\
-     掌握基本的语法与技巧
+** Started learning LaTex
+   DEADLINE: <2018-08-21 Tue 18:00>
    :LOGBOOK:
-   CLOCK: [2018-08-21 Tue 15:31]
+   CLOCK: [2018-08-21 Tue 15:31]--[2018-08-21 Tue 15:56] =>  0:25
    CLOCK: [2018-08-21 Tue 13:59]--[2018-08-21 Tue 14:24] =>  0:25
    :END:
    - State "Started"    from "Plan"       [2018-08-21 Tue 10:45]

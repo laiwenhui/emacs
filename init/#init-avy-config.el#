@@ -1,6 +1,8 @@
 (use-package avy
   :ensure t
   :config
-  (avy-setup-default))
+  (avy-setup-default)
+
+
 ;;================================================================
 (provide 'init-avy-config)

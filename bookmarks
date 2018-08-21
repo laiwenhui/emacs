@@ -2,23 +2,43 @@
 ;;; This format is meant to be slightly human-readable;
 ;;; nevertheless, you probably don't want to edit it.
 ;;; -*- End Of Bookmark File Format Version Stamp -*-
-(("shortcut-config"
+(("base-config"
+ (filename . "~/.emacs.d/init/init-base-config.el")
+ (front-context-string . "(require 'packag")
+ (rear-context-string)
+ (position . 1))
+("python-config"
+ (filename . "~/.emacs.d/init/init-python-config.el")
+ (front-context-string . ";; (use-package ")
+ (rear-context-string . "n\n  :ensure t)\n\n")
+ (position . 327))
+("customize-config"
+ (filename . "~/.emacs.d/init/init-customize-config.el")
+ (front-context-string . ";;;*************")
+ (rear-context-string)
+ (position . 1))
+("org-config"
+ (filename . "~/.emacs.d/init/init-org-mode-config.el")
+ (front-context-string . "(setq load-path ")
+ (rear-context-string)
+ (position . 1))
+("shortcut-config"
  (filename . "~/.emacs.d/init/init-shortcut-config.el")
  (front-context-string . "\n\n\n;;\346\234\200\345\220\216\346\211\223\345\274\200\346\210\221\347\232\204\347\254\224\350\256\260\n(d")
  (rear-context-string . "ectile-grep)))\n\n")
  (position . 3043))
 ("org-refile-last-stored"
- (filename . "~/org/gtd/work.org")
- (front-context-string . "** Work eID \345\215\241\347\211\207\351\242\204\347\240\224")
- (rear-context-string . "-14 Tue 18:00>\n\n")
- (position . 1905))
-("org-capture-last-stored"
  (filename . "~/.emacs.d/org/gtd/inbox.org")
- (front-context-string . "**  python 自动补齐功")
- (rear-context-string . "8-14 Tue 16:07>\n")
- (position . 4175))
+ (front-context-string . "** Todo learning")
+ (rear-context-string . "2018-08-15 Wed>\n")
+ (position . 13033))
+("org-capture-last-stored"
+ (filename . "~/.emacs.d/org/gtd/TechnicalSupport.org")
+ (front-context-string . "| \345\256\211\345\276\275\345\214\272\345\237\237 | \345\276\256\344\277\241\345\212\240\347\224\265\350\257\235 |")
+ (rear-context-string . "\344\274\232\345\204\277paper\n\n** 08\346\234\210\n")
+ (position . 228))
 ("test.py"
- (filename . "~/MyNotes/technique/python/test.py")
+ (filename . "~/MyNotes/technique/python/python.py")
  (front-context-string . "from functools i")
  (rear-context-string)
  (position . 1))
