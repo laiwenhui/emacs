@@ -1,20 +1,17 @@
 (setq load-path (cons "~/.emacs.d/modules/org2blog" load-path))
 
-
-
-
 (require 'org)
 (require 'org-install)
 (require 'org2blog-autoloads)
 
+;;(use-package org2blog
+;;  :ensure t)
 
 (use-package graphviz-dot-mode
   :ensure t)
 
 (use-package org-bullets
-  :ensure t
-  :config
-  (add-hook 'org-mode-hook (lambda () (org-bullets-mode 1))))
+  :ensure t)
 
 (use-package metaweblog
   :ensure t)
@@ -25,22 +22,17 @@
 (use-package htmlize 
   :ensure t)
 
-
-
-
 (add-hook 'org-mode-hook 'turn-on-font-lock)
-(add-hook 'org-mode-hook 
-(lambda () (setq truncate-lines nil)))
-
+(add-hook 'org-mode-hook  (lambda ()(setq truncate-lines nil)))
+(add-hook 'org-mode-hook (lambda () (org-bullets-mode 1)))
 
 ;;=======================================================================
 (add-to-list
    'org-src-lang-modes '("plantuml" . puml))  
 (setq org-export-with-sub-superscripts (quote {}))
 (setq org-plantuml-jar-path
-        (expand-file-name "/usr/local/Cellar/plantuml/8057/libexec/plantuml.jar")
-        )
-(setq org-ditaa-jar-path "~/MyLibs/ditaa0_9/ditaa.jar")
+        (expand-file-name "/usr/local/Cellar/plantuml/1.2018.9/libexec/plantuml.jar"))
+(setq org-ditaa-jar-path "/usr/local/Cellar/ditaa/0.11.0/libexec/ditaa-0.11.0-standalone.jar")
 
 
  (with-eval-after-load 'org
@@ -56,11 +48,14 @@
                                                              (org . t)
                                                              (python . t)
                                                              (clojure . t)
+                                                             (java . t)
                                                              (plantuml . t)
                                                              (latex . t)
                                                              (scheme . t))))
 (setq org-confirm-babel-evaluate nil
       org-src-fontify-natively t)
+
+(setq org-babel-python-command "~/anaconda3/bin/python3.6")
 
 
 (defun shk-fix-inline-images ()
@@ -75,6 +70,8 @@
 (setq exec-path (append exec-path '("/Library/TeX/texbin/")))
 (setq org-latex-pdf-process '("xelatex -interaction nonstopmode %f"
                                 "xelatex -interaction nonstopmode %f"))
+
+
 
 
 ;;colored source code when exporting to LaTeX
@@ -209,10 +206,6 @@
 
 
 
-
-
-
-
   (setq org-log-done 'time)
   (setq org-capture-templates nil)
   (setq org-enforce-todo-dependencies t)
@@ -230,6 +223,10 @@
                  (file+function "~/.emacs.d/org/gtd/TechnicalSupport.org" find-month-tree)
                  "| %^{区域} | %^{沟通方式} | %^{人员} | %^{产品}| %^{客户} | %^{状态} |%^{问题}| %^{处理}| %U|":kill-buffer t))
 
+  (add-to-list 'org-capture-templates
+             '("d" "Department management" entry (file+headline "" "management") "* %? \n  %U\n  %a"))
+
+               
 (defun org-summary-todo (n-done n-not-done)
       "Switch entry to DONE when all subentries are done, to TODO otherwise."
       (let (org-log-done org-log-states)   ; turn off logging
@@ -250,6 +247,26 @@
 
 (setq mark-holidays-in-calendar t)
 (setq org-agenda-include-diary t)
+
+
+
+
+;; (require 'org-export-latex)
+;; (add-to-list 'org-export-latex-classes 
+;; '("myarticle" 
+;; "\\documentclass[11pt]{article}"
+;;      ("\\section{%s}" . "\\section*{%s}")
+;;      ("\\subsection{%s}" . "\\subsection*{%s}")
+;;      ("\\subsubsection{%s}" . "\\subsubsection*{%s}")
+;;      ("\\paragraph{%s}" . "\\paragraph*{%s}")
+;;      ("\\subparagraph{%s}" . "\\subparagraph*{%s}")))
+
+
+;;========================================================================================
+;; (setq load-path (cons "~/.emacs.d/modules/anki-editor/" load-path))
+(require 'anki-editor)
+;; (use-package anki-editor
+;;   :ensure t)
 
 
 

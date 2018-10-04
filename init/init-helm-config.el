@@ -1,5 +1,6 @@
-(add-to-list 'load-path "/Users/laiwen/.emacs.d/modules/emacs-async")
-(add-to-list 'load-path "/Users/laiwen/.emacs.d/modules/popup-el")
+
+(add-to-list 'load-path "~/.emacs.d/modules/emacs-async")
+(add-to-list 'load-path "~/.emacs.d/modules/popup-el")
 (autoload 'dired-async-mode "dired-async.el" nil t)
 
 (use-package flx-ido
@@ -16,6 +17,10 @@
   :config
   (helm-projectile-on)
   )
+
+(use-package helm-swoop
+  :ensure t)
+
 
 (helm-autoresize-mode 1)
 (helm-mode 1)
@@ -90,5 +95,6 @@
 ;;http://tuhdo.github.io/helm-projectile.html
 ;;http://tuhdo.github.io/helm-intro.html
 ;;https://github.com/emacs-helm/helm
+;;https://github.com/ShingoFukuyama/helm-swoop
 ;;================================================================
 (provide 'init-helm-config)

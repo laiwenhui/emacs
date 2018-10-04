@@ -1,0 +1,6 @@
+[submodule "modules/org-html-themes"]
+	path = modules/org-html-themes
+	url = https://github.com/fniessen/org-html-themes.git
+[submodule "modules/anki-editor"]
+	path = modules/anki-editor
+	url = https://github.com/louietan/anki-editor.git

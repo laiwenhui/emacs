@@ -19,3 +19,84 @@ Archived entries from file /Users/laiwen/.emacs.d/org/gtd/inbox.org
  SCHEDULED: <2018-08-24 Fri 09:00-10:00 ++1w>
 
 
+
+* Finish emacs [14/14]
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2018-08-24 Fri 10:15
+  :ARCHIVE_FILE: ~/.emacs.d/org/gtd/inbox.org
+  :ARCHIVE_OLPATH: one-week-things
+  :ARCHIVE_CATEGORY: work-week
+  :ARCHIVE_TODO: Finish
+  :END:
+  - State "Finish"     from "Plan"       [2018-08-24 Fri 10:15] \\
+    删除任务
+  - State "Plan"       from "Plan"       [2018-08-24 Fri 10:15]
+  - State "Plan"       from "Plan"       [2018-08-23 Thu 21:24]
+  - State "Plan"       from "Plan"       [2018-08-23 Thu 01:54]
+  - State "Plan"       from "Plan"       [2018-08-22 Wed 09:40]
+  - State "Plan"       from "Plan"       [2018-08-22 Wed 09:38]
+  - State "Plan"       from "Plan"       [2018-08-22 Wed 09:38]
+  - State "Plan"       from "Finish"     [2018-08-22 Wed 09:37]
+  - State "Finish"     from "Plan"       [2018-08-21 Tue 02:10] \\
+    不要被工具所左右，不断打磨即可
+  - State "Plan"       from "Plan"       [2018-08-21 Tue 02:10]
+  - State "Plan"       from "Plan"       [2018-08-21 Tue 02:10]
+  - State "Plan"       from "Plan"       [2018-08-21 Tue 02:10]
+  - State "Plan"       from "Plan"       [2018-08-21 Tue 02:10]
+  - State "Plan"       from "Plan"       [2018-08-21 Tue 01:49]
+  - State "Plan"       from "Plan"       [2018-08-21 Tue 01:48]
+  - State "Plan"       from "Plan"       [2018-08-21 Tue 00:42]
+** Finish 自动刷新 -babel 和 dired 
+   CLOSED: [2018-08-17 Fri 00:54]
+   - State "Finish"     from "Todo"       [2018-08-17 Fri 00:54] \\
+     已添加该功能
+  [2018-08-16 Thu 15:54]
+  [[file:~/.emacs.d/init/init-customize-config.el][file:~/.emacs.d/init/init-customize-config.el]]
+** Finish elisp 学习
+   CLOSED: [2018-08-16 Thu 11:31] DEADLINE: <2018-08-15 Wed 12:00>
+   - State "Finish"     from "Started"    [2018-08-16 Thu 11:31] \\
+     了解了基本语法
+   :LOGBOOK:
+   CLOCK: [2018-08-15 Wed 17:22]--[2018-08-15 Wed 17:47] =>  0:25
+   :END:
+   - State "Started"    from "Plan"       [2018-08-15 Wed 17:21]
+** Finish org-mode 
+   CLOSED: [2018-08-15 Wed 14:02] DEADLINE: <2018-08-15 Wed 12:00>
+   - State "Finish"     from "Started"    [2018-08-15 Wed 14:02]
+   :LOGBOOK:
+   CLOCK: [2018-08-15 Wed 13:47]--[2018-08-15 Wed 14:02] =>  0:15
+   CLOCK: [2018-08-15 Wed 10:46]--[2018-08-15 Wed 11:11] =>  0:25
+   CLOCK: [2018-08-15 Wed 10:15]--[2018-08-15 Wed 10:40] =>  0:25
+   :END:
+** Finish python 补全
+   CLOSED: [2018-08-23 Thu 01:54]
+** Finish html导出 注释全黑
+   CLOSED: [2018-08-23 Thu 21:24]
+** Finish tex pdf预览
+   CLOSED: [2018-08-24 Fri 10:15]
+** Finish tex 环境
+   CLOSED: [2018-08-21 Tue 02:10]
+** Finish 任务按工作日分配
+   CLOSED: [2018-08-21 Tue 00:33]
+** Finish tex pdf 导出
+   CLOSED: [2018-08-21 Tue 02:10]
+** Finish learn tex
+   CLOSED: [2018-08-21 Tue 02:10]
+** Finish replace string
+   CLOSED: [2018-08-24 Fri 10:15]
+** Finish products's question record
+   CLOSED: [2018-08-16 Thu 18:06] DEADLINE: <2018-08-16 Thu 18:00>
+   - State "Finish"     from "Started"    [2018-08-16 Thu 18:06] \\
+     跟区域问题记录放一起即可
+   - State "Started"    from "Plan"       [2018-08-16 Thu 18:01]
+   - State "Plan"       from "Todo"       [2018-08-16 Thu 13:39]
+** Finish add projects.org
+   CLOSED: [2018-08-16 Thu 18:05] DEADLINE: <2018-08-16 Thu 18:00>
+   - State "Finish"     from "Started"    [2018-08-16 Thu 18:05] \\
+     直接在inbox.org添加项目总任务即可
+   - State "Started"    from "Plan"       [2018-08-16 Thu 18:01]
+   - State "Plan"       from "Todo"       [2018-08-16 Thu 13:39]
+** Finish repeat works reminder
+   CLOSED: [2018-08-16 Thu 13:37]
+   - State "Finish"     from "Todo"       [2018-08-16 Thu 13:37] \\
+     已经调好

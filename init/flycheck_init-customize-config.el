@@ -7,6 +7,11 @@
   :ensure t
   )
 
+
+(use-package xah-find
+ :ensure t)
+
+
 (setq-default google-translate-enable-ido-completion t)
 (setq google-translate-translation-directions-alist '(("en" . "zh-CN")))
 

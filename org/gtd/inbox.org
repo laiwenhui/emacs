@@ -1,8 +1,5 @@
 #+STARTUP: overview
 * ideas
-** 产品认定标准 
-   <2018-08-15 Wed 10:10>
-   [[file:~/.emacs.d/org/gtd/inbox.org::*M10%E6%B5%B7%E5%A4%96%E9%A1%B9%E7%9B%AE][M10海外项目]]
 * projects
 ** 国寿台式自助设备
 *** 竞品分析
@@ -11,93 +8,21 @@
 *** 如何写好报告及报告格式
 *** 报告编写
 * shopping-list
-** Todo 宝宝磨牙的坚果
+** 手机壳与屏幕
+** 呵呵
+** 悠悠的礼物
 * work-routine-list
 :PROPERTIES:
 :CATEGORY: work-routine
 :END:
-** Plan mail 
-  SCHEDULED: <2018-08-27 Mon 09:00-10:00 +1w>
-** Plan mail 
-  SCHEDULED: <2018-08-28 Tue 09:00-10:00 +1w>
+** Plan Mail & OA & Eip & Plan
+  SCHEDULED:<2018-09-29 Sat 09:00-10:00 +1d>
   :PROPERTIES:
-  :LAST_REPEAT: [2018-08-21 Tue 09:09]
+  :LAST_REPEAT: [2018-09-28 Fri 11:00]
   :END:
-  - State "Finish"     from "Plan"       [2018-08-21 Tue 09:09] \\
-    已经处理
-** Plan mail 
-  SCHEDULED: <2018-08-22 Wed 09:00-10:00 +1w>
-** Plan mail 
-  SCHEDULED: <2018-08-23 Thu 09:00-10:00 +1w>
-** Plan mail 
-  SCHEDULED: <2018-08-24 Fri 09:00-10:00 +1w>
-
-
-** Plan OA 
-  SCHEDULED: <2018-08-27 Mon 09:00-10:00 +1w>
-** Plan OA 
-  SCHEDULED: <2018-08-28 Tue 09:00-10:00 +1w>
-  :PROPERTIES:
-  :LAST_REPEAT: [2018-08-21 Tue 09:10]
-  :END:
-  - State "Finish"     from "Plan"       [2018-08-21 Tue 09:10] \\
-    已处理
-** Plan OA 
-  SCHEDULED: <2018-08-22 Wed 09:00-10:00 +1w>
-** Plan OA 
-  SCHEDULED: <2018-08-23 Thu 09:00-10:00 +1w>
-** Plan OA 
-  SCHEDULED: <2018-08-24 Fri 09:00-10:00 +1w>
-
-
-** Todo eip 
-  SCHEDULED: <2018-08-27 Mon 09:00-10:00 +1w>
-** Plan eip 
-  SCHEDULED: <2018-08-28 Tue 09:00-10:00 +1w>
-  :PROPERTIES:
-  :LAST_REPEAT: [2018-08-21 Tue 09:10]
-  :END:
-  - State "Finish"     from "Plan"       [2018-08-21 Tue 09:10] \\
-    已处理
-  - State "Plan"       from "Todo"       [2018-08-21 Tue 09:10]
-** Todo eip 
-  SCHEDULED: <2018-08-22 Wed 09:00-10:00 +1w>
-** Todo eip 
-  SCHEDULED: <2018-08-23 Thu 09:00-10:00 +1w>
-** Todo eip 
-  SCHEDULED: <2018-08-24 Fri 09:00-10:00 +1w>
-
-
-** Todo plan 
-  SCHEDULED: <2018-08-27 Mon 09:00-10:00 +1w>
-** Plan plan 
-  SCHEDULED: <2018-08-28 Tue 09:00-10:00 +1w>
-  :PROPERTIES:
-  :LAST_REPEAT: [2018-08-21 Tue 09:31]
-  :END:
-  - State "Finish"     from "Started"    [2018-08-21 Tue 09:31] \\
-    计划完毕
-  - State "Started"    from "Todo"       [2018-08-21 Tue 09:11]
-** Todo plan 
-  SCHEDULED: <2018-08-22 Wed 09:00-10:00 +1w>
-** Todo plan 
-  SCHEDULED: <2018-08-23 Thu 09:00-10:00 +1w>
-** Todo plan 
-  SCHEDULED: <2018-08-24 Fri 09:00-10:00 +1w>
-  
-
-** Plan Typing practice
-   SCHEDULED:<2018-08-22 Wed 12:00-12:20 +1d>
-   :PROPERTIES:
-   :LAST_REPEAT: [2018-08-21 Tue 22:30]
-   :END:
-
-   - State "Finish"     from "Started"    [2018-08-21 Tue 22:30] \\
-     已经练习
-   - State "Started"    from "Todo"       [2018-08-21 Tue 22:20]
-** Todo learning english 
-  SCHEDULED: <2018-08-21 Tue 12:20-12:50 +1d>
-
+  - State "Finish"     from "Plan"       [2018-09-28 Fri 11:00]
+  - State "Finish"     from "Plan"       [2018-09-27 Thu 09:42]
+  - State "Finish"     from "Plan"       [2018-09-26 Wed 09:42]
 * life-reminder-list
 :PROPERTIES:
 :CATEGORY: life-reminder
@@ -127,6 +52,10 @@
 * personal
 ** Todo PMP
    <2018-08-14 Tue 16:07>
+* management
+** 确定是否要usb vid续签 
+   [2018-08-24 Fri 16:40]
+   [[file:~/temp/record.org]]
 * someday-todo-list
 ** Todo paper reading                                         
 ** Todo 技术文档编写
@@ -143,21 +72,14 @@
    [[file:~/MyNotes/technique/Chain-Programming/note.org::*%E5%9F%BA%E6%9C%AC%E5%8E%9F%E7%90%86][基本原理]]
 
 ** Plan 发卡箱java通用文档
-   SCHEDULED: <2018-07-26 Thu 18:00>
-   - State "Plan"       from "Started"    [2018-08-17 Fri 09:07]
-   - State "Started"    from "Delayed"    [2018-08-17 Fri 09:07]
-   - State "Delayed"    from "Started"    [2018-08-15 Wed 09:38] \\
-     优先级较低
-   - State "Started"    from "Delayed"    [2018-08-14 Tue 23:49]
-   - State "Delayed"    from "Started"    [2018-08-06 Mon 14:12] \\
-     插上任务安排
-
 * Assigned task
 ** 红外活体检查预研--苏汉杰
    SCHEDULED: <2018-08-20 Mon> DEADLINE: <2018-08-31 Fri>
-** 港澳台居留证紧急测试--张晓燕
-   DEADLINE: <2018-08-21 Tue 18:00> SCHEDULED: <2018-08-20 Mon>
+** Finish 港澳台居留证紧急测试--张晓燕
+   CLOSED: [2018-08-22 Wed 14:45] DEADLINE: <2018-08-21 Tue 18:00> SCHEDULED: <2018-08-20 Mon>
 
+   - State "Finish"     from              [2018-08-22 Wed 14:45] \\
+     已经处理完毕
 * recent-works
 ** T9工作整理与改进
    <2018-08-14 Tue 16:05>
@@ -190,223 +112,333 @@
 ** eid 学习
    <2018-08-14 Tue 09:40>
   网址：http://eid.cn/index.html 
-* one-week-things
-:PROPERTIES:
-:CATEGORY: work-week
-:END:
-** Finish iOS pattern one chapter
-   CLOSED: [2018-08-16 Thu 18:00] DEADLINE: <2018-08-16 Thu 09:00-15:00>
-   - State "Finish"     from "Started"    [2018-08-16 Thu 18:00] \\
-     完成外观模式的学习
-   - Note taken on [2018-08-16 Thu 17:59] \\
-     每天一个即可
-   - State "Started"    from "Started"    [2018-08-16 Thu 17:59]
-   - State "Started"    from "Plan"       [2018-08-16 Thu 15:55]
-   :LOGBOOK:
-   CLOCK: [2018-08-21 Tue 14:53]--[2018-08-21 Tue 15:18] =>  0:25
-   CLOCK: [2018-08-16 Thu 15:56]
-   CLOCK: [2018-08-14 Tue 22:54]--[2018-08-14 Tue 22:54] =>  0:00
-   CLOCK: [2018-08-14 Tue 22:09]--[2018-08-14 Tue 22:54] =>  0:45
-   CLOCK: [2018-08-14 Tue 22:03]--[2018-08-14 Tue 22:53] =>  0:50
-   :END:
-   - State "Started"    from "Delayed"    [2018-08-14 Tue 09:13]
-   - State "Delayed"    from "Started"    [2018-07-25 Wed 09:15]
-   - State "Started"    from "Delayed"    [2018-07-23 Mon 17:22]
-** Finish M10源码查找
-   CLOSED: [2018-08-15 Wed 15:20] DEADLINE: <2018-08-15 Wed 15:00>
-   - State "Finish"     from "Started"    [2018-08-15 Wed 15:20] \\
-     已经将工程发给张晓燕了，工程地址：git@192.168.92.164:e10/rk3188/app/production.git
-   :LOGBOOK:
-   CLOCK: [2018-08-15 Wed 15:14]--[2018-08-15 Wed 15:20] =>  0:06
-   CLOCK: [2018-08-15 Wed 14:39]--[2018-08-15 Wed 15:04] =>  0:25
-   :END:
-** Finish 发卡箱问题确认
-   CLOSED: [2018-08-17 Fri 09:39]
-   - State "Finish"     from "Started"    [2018-08-17 Fri 09:39] \\
-     已经安排处理
-   - State "Started"    from "Delayed"    [2018-08-17 Fri 09:14]
-   - State "Delayed"    from "Started"    [2018-08-15 Wed 14:19] \\
-     等待问题进一步确认
-     问题描述：南洋客户在测试我们发卡箱时反馈卡片被刮花的问题。
 
-** Finish emacs [13/13]
-   - State "Finish"     from "Plan"       [2018-08-21 Tue 02:10] \\
-     不要被工具所左右，不断打磨即可
-   - State "Plan"       from "Plan"       [2018-08-21 Tue 02:10]
-   - State "Plan"       from "Plan"       [2018-08-21 Tue 02:10]
-   - State "Plan"       from "Plan"       [2018-08-21 Tue 02:10]
-   - State "Plan"       from "Plan"       [2018-08-21 Tue 02:10]
-   - State "Plan"       from "Plan"       [2018-08-21 Tue 01:49]
-   - State "Plan"       from "Plan"       [2018-08-21 Tue 01:48]
-   - State "Plan"       from "Plan"       [2018-08-21 Tue 00:42]
-*** Finish 自动刷新 -babel 和 dired 
-    CLOSED: [2018-08-17 Fri 00:54]
-    - State "Finish"     from "Todo"       [2018-08-17 Fri 00:54] \\
-      已添加该功能
-   [2018-08-16 Thu 15:54]
-   [[file:~/.emacs.d/init/init-customize-config.el][file:~/.emacs.d/init/init-customize-config.el]]
-*** Finish elisp 学习
-    CLOSED: [2018-08-16 Thu 11:31] DEADLINE: <2018-08-15 Wed 12:00>
-    - State "Finish"     from "Started"    [2018-08-16 Thu 11:31] \\
-      了解了基本语法
+* August
+** first-week
+   :PROPERTIES:
+   :CATEGORY: work-week
+   :END:
+*** Finish M10源码查找
+    CLOSED: [2018-08-15 Wed 15:20] DEADLINE: <2018-08-15 Wed 15:00>
+    - State "Finish"     from "Started"    [2018-08-15 Wed 15:20] \\
+      已经将工程发给张晓燕了，工程地址：git@192.168.92.164:e10/rk3188/app/production.git
     :LOGBOOK:
-    CLOCK: [2018-08-15 Wed 17:22]--[2018-08-15 Wed 17:47] =>  0:25
+    CLOCK: [2018-08-15 Wed 15:14]--[2018-08-15 Wed 15:20] =>  0:06
+    CLOCK: [2018-08-15 Wed 14:39]--[2018-08-15 Wed 15:04] =>  0:25
     :END:
-    - State "Started"    from "Plan"       [2018-08-15 Wed 17:21]
-*** Finish org-mode 
-    CLOSED: [2018-08-15 Wed 14:02] DEADLINE: <2018-08-15 Wed 12:00>
-    - State "Finish"     from "Started"    [2018-08-15 Wed 14:02]
+*** Finish 发卡箱问题确认
+    CLOSED: [2018-08-17 Fri 09:39]
+    - State "Finish"     from "Started"    [2018-08-17 Fri 09:39] \\
+      已经安排处理
+    - State "Started"    from "Delayed"    [2018-08-17 Fri 09:14]
+    - State "Delayed"    from "Started"    [2018-08-15 Wed 14:19] \\
+      等待问题进一步确认
+      问题描述：南洋客户在测试我们发卡箱时反馈卡片被刮花的问题。
+
+*** Finish 山西人寿项目设计文档评审与修改
+    CLOSED: [2018-08-15 Wed 17:17] DEADLINE: <2018-08-15 Wed 18:00>
+    - State "Finish"     from "Started"    [2018-08-15 Wed 17:17] \\
+      文档修改完毕
     :LOGBOOK:
-    CLOCK: [2018-08-15 Wed 13:47]--[2018-08-15 Wed 14:02] =>  0:15
-    CLOCK: [2018-08-15 Wed 10:46]--[2018-08-15 Wed 11:11] =>  0:25
-    CLOCK: [2018-08-15 Wed 10:15]--[2018-08-15 Wed 10:40] =>  0:25
+    CLOCK: [2018-08-15 Wed 16:46]--[2018-08-15 Wed 17:11] =>  0:25
+    CLOCK: [2018-08-15 Wed 15:31]--[2018-08-15 Wed 15:56] =>  0:25
     :END:
-*** Finish python 补全
-    CLOSED: [2018-08-21 Tue 01:48]
-*** Finish html导出 注释全黑
-    CLOSED: [2018-08-21 Tue 02:10]
-*** Finish tex 环境
-    CLOSED: [2018-08-21 Tue 02:10]
-*** Finish 任务按工作日分配
-    CLOSED: [2018-08-21 Tue 00:33]
-*** Finish tex pdf 导出
-    CLOSED: [2018-08-21 Tue 02:10]
-*** Finish learn tex
-    CLOSED: [2018-08-21 Tue 02:10]
-*** Finish replace string
-    CLOSED: [2018-08-21 Tue 02:10]
-*** Finish products's question record
-    CLOSED: [2018-08-16 Thu 18:06] DEADLINE: <2018-08-16 Thu 18:00>
-    - State "Finish"     from "Started"    [2018-08-16 Thu 18:06] \\
-      跟区域问题记录放一起即可
-    - State "Started"    from "Plan"       [2018-08-16 Thu 18:01]
-    - State "Plan"       from "Todo"       [2018-08-16 Thu 13:39]
-*** Finish add projects.org
-    CLOSED: [2018-08-16 Thu 18:05] DEADLINE: <2018-08-16 Thu 18:00>
-    - State "Finish"     from "Started"    [2018-08-16 Thu 18:05] \\
-      直接在inbox.org添加项目总任务即可
-    - State "Started"    from "Plan"       [2018-08-16 Thu 18:01]
-    - State "Plan"       from "Todo"       [2018-08-16 Thu 13:39]
-*** Finish repeat works reminder
-    CLOSED: [2018-08-16 Thu 13:37]
-    - State "Finish"     from "Todo"       [2018-08-16 Thu 13:37] \\
-      已经调好
-** Finish 山西人寿项目设计文档评审与修改
-   CLOSED: [2018-08-15 Wed 17:17] DEADLINE: <2018-08-15 Wed 18:00>
-   - State "Finish"     from "Started"    [2018-08-15 Wed 17:17] \\
-     文档修改完毕
-   :LOGBOOK:
-   CLOCK: [2018-08-15 Wed 16:46]--[2018-08-15 Wed 17:11] =>  0:25
-   CLOCK: [2018-08-15 Wed 15:31]--[2018-08-15 Wed 15:56] =>  0:25
-   :END:
-   - State "Started"    from "Plan"       [2018-08-15 Wed 15:28]
-   - State "Plan"       from "Todo"       [2018-08-15 Wed 15:27]
-** Finish 确认民生安全盒子项目周期并与张总确认相关安排
-   CLOSED: [2018-08-16 Thu 16:20] SCHEDULED: <2018-08-16 Thu> DEADLINE: <2018-08-16 Thu 16:30>
-   - State "Finish"     from "Started"    [2018-08-16 Thu 16:20] \\
-     等周一再汇报吧
-   - State "Started"    from "Plan"       [2018-08-16 Thu 16:01]
+    - State "Started"    from "Plan"       [2018-08-15 Wed 15:28]
+    - State "Plan"       from "Todo"       [2018-08-15 Wed 15:27]
+*** Finish 确认民生安全盒子项目周期并与张总确认相关安排
+    CLOSED: [2018-08-16 Thu 16:20] SCHEDULED: <2018-08-16 Thu> DEADLINE: <2018-08-16 Thu 16:30>
+    - State "Finish"     from "Started"    [2018-08-16 Thu 16:20] \\
+      等周一再汇报吧
+    - State "Started"    from "Plan"       [2018-08-16 Thu 16:01]
 
-** Finish 发卡箱重新理一遍各个模块的状态 
-   CLOSED: [2018-08-17 Fri 14:33] DEADLINE: <2018-08-17 Fri 18:00>
-   - State "Finish"     from "Started"    [2018-08-17 Fri 14:33] \\
-     大概了解了相关情况
-   :LOGBOOK:
-   CLOCK: [2018-08-17 Fri 09:57]--[2018-08-17 Fri 10:22] =>  0:25
-   :END:
-   - State "Started"    from "Plan"       [2018-08-17 Fri 09:56]
-   - State "Plan"       from              [2018-08-17 Fri 09:09]
-   [2018-08-16 Thu 16:57]
+*** Finish 发卡箱重新理一遍各个模块的状态 
+    CLOSED: [2018-08-17 Fri 14:33] DEADLINE: <2018-08-17 Fri 18:00>
+    - State "Finish"     from "Started"    [2018-08-17 Fri 14:33] \\
+      大概了解了相关情况
+    :LOGBOOK:
+    CLOCK: [2018-08-17 Fri 09:57]--[2018-08-17 Fri 10:22] =>  0:25
+    :END:
+    - State "Started"    from "Plan"       [2018-08-17 Fri 09:56]
+    - State "Plan"       from              [2018-08-17 Fri 09:09]
+    [2018-08-16 Thu 16:57]
 
-** Finish 红外样机借用
-   CLOSED: [2018-08-17 Fri 15:11] DEADLINE: <2018-08-17 Fri 18:00>
-   - State "Finish"     from "Started"    [2018-08-17 Fri 15:11] \\
-     样机单已经提了
-   :LOGBOOK:
-   CLOCK: [2018-08-17 Fri 14:41]--[2018-08-17 Fri 15:06] =>  0:25
-   :END:
-   - State "Started"    from "Plan"       [2018-08-17 Fri 14:41]
-   - State "Plan"       from              [2018-08-17 Fri 09:09]
-** Finish 部门会议
-   CLOSED: [2018-08-17 Fri 17:47] DEADLINE: <2018-08-17 Fri 17:30>
-   - State "Finish"     from "Plan"       [2018-08-17 Fri 17:47] \\
+*** Finish 红外样机借用
+    CLOSED: [2018-08-17 Fri 15:11] DEADLINE: <2018-08-17 Fri 18:00>
+    - State "Finish"     from "Started"    [2018-08-17 Fri 15:11] \\
+      样机单已经提了
+    :LOGBOOK:
+    CLOCK: [2018-08-17 Fri 14:41]--[2018-08-17 Fri 15:06] =>  0:25
+    :END:
+    - State "Started"    from "Plan"       [2018-08-17 Fri 14:41]
+    - State "Plan"       from              [2018-08-17 Fri 09:09]
+*** Finish 陈培德沟通二代证事宜
+    CLOSED: [2018-08-17 Fri 14:33]
+    - State "Finish"     from "Plan"       [2018-08-17 Fri 14:33] \\
+      沟通完毕，等待样卡与标准文档
+*** Finish 取POS设备
+    CLOSED: [2018-08-17 Fri 14:38]
+    - State "Finish"     from "Started"    [2018-08-17 Fri 14:38] \\
+      样机收到
+    :LOGBOOK:
+    CLOCK: [2018-08-17 Fri 14:34]--[2018-08-17 Fri 14:38] =>  0:04
+    :END:
+    - State "Started"    from "Plan"       [2018-08-17 Fri 14:34]
+*** Finish M10海外项目 
+    CLOSED: [2018-08-24 Fri 10:16] SCHEDULED: <2018-09-10 Mon> DEADLINE: <2018-08-21 Tue 12:00>
+    - State "Finish"     from "Started"    [2018-08-24 Fri 10:16] \\
+      处理完毕
+    - State "Started"    from "Delayed"    [2018-08-20 Mon 15:30]
+    - Note taken on [2018-08-17 Fri 14:39] \\
+      周天重新计划与安排时间
+    - State "Delayed"    from "Finish"     [2018-08-15 Wed 10:47] \\
+      等待样机
+    - State "Finish"     from "Delayed"    [2018-08-15 Wed 10:47]
+    - State "Delayed"    from "Started"    [2018-08-10 Fri 13:40] \\
+**** Finish 安排开发接口 --  陈锦胜
+     CLOSED: [2018-08-24 Fri 10:16]
+
+     - State "Finish"     from "Started"    [2018-08-24 Fri 10:16] \\
+       完成开发
+     - State "Started"    from "Plan"       [2018-08-20 Mon 15:31]
+     - State "Plan"       from              [2018-08-20 Mon 15:31]
+*** Delayed 量化京东
+**** Todo PYthon爬虫开发
+**** Todo 量化入门及相关安排计划
+*** Finish 民生接口开发
+    CLOSED: [2018-08-30 Thu 17:24] DEADLINE: <2018-08-16 Thu 18:00> SCHEDULED: <2018-09-13 Thu>
+    - State "Finish"     from "Started"    [2018-08-30 Thu 17:24] \\
+      ok
+    - State "Started"    from "Delayed"    [2018-08-22 Wed 14:45]
+    - State "Plan"       from "Todo"       [2018-08-17 Fri 09:07]
+*** Finish 时间管理学习、技能体系、文档整理
+    CLOSED: [2018-08-21 Tue 09:34] DEADLINE: <2018-08-16 Thu 23:00>
+    - State "Finish"     from "Started"    [2018-08-21 Tue 09:34] \\
+      就那样了吧
+    - State "Started"    from "Plan"       [2018-08-17 Fri 14:47]
+    - State "Plan"       from              [2018-08-15 Wed 15:29]
+*** Plan Desktop self-service equipment plan
+*** Plan learning english
+    - State "Plan"       from "Todo"       [2018-08-21 Tue 09:35]
+**** Todo English grammar
+*** Plan logical thinking one chapter
+*** Finish withdraw money
+    CLOSED: [2018-08-28 Tue 14:52] DEADLINE: <2018-08-22 Wed 12:10>
+    - State "Finish"     from "Plan"       [2018-08-28 Tue 14:52] \\
+      ok
+*** Finish 海外交流M10需求
+    CLOSED: [2018-08-23 Thu 16:13]
+    - State "Finish"     from              [2018-08-23 Thu 16:13] \\
+      等王汉杰的统计情况
+*** Plan 乔菲尔民生项目计划
+    - State "Plan"       from              [2018-08-24 Fri 10:15]
+*** usb 王鹏工作交接问题
+*** 激光打印
+*** px30 linux      --- 庄毅民
+*** 天津发卡箱问题
+*** 产品指令整理      --- 庄毅民-张晓燕
+*** Finish 主管例会的东西回复一下
+    CLOSED: [2018-08-24 Fri 19:33]
+    - State "Finish"     from "Plan"       [2018-08-24 Fri 19:33] \\
+      已经回复
+    - State "Plan"       from              [2018-08-24 Fri 10:14]
+*** Finish 邹池讨论一下海外项目需求问题
+    CLOSED: [2018-09-04 Tue 10:44] DEADLINE: <2018-09-09 Sun>
+
+    - State "Finish"     from "Todo"       [2018-09-04 Tue 10:44] \\
+      ok
+** second-week
+** third-week
+** forth-week
+ 1. 线性代数通用知识
+ 2. 量化前4章
+ 3. 爬虫
+ 4. 逻辑思考力
+ 5. latex排版
+ 6. 英语学习
+** fifth-week
+** Finish 月总结
+   CLOSED: [2018-08-30 Thu 15:02] SCHEDULED: <2018-08-27 Mon> DEADLINE: <2018-08-30 Thu 23:00>
+   - State "Finish"     from "Started"    [2018-08-30 Thu 15:02] \\
      完成
-   - State "Plan"       from              [2018-08-17 Fri 09:08]
-** Finish 取山竹
-   CLOSED: [2018-08-17 Fri 23:52] DEADLINE: <2018-08-17 Fri 20:00>
-   - State "Finish"     from "Plan"       [2018-08-17 Fri 23:52] \\
-     已经取了
-   - State "Plan"       from              [2018-08-17 Fri 09:10]
-** Finish 陈培德沟通二代证事宜
-   CLOSED: [2018-08-17 Fri 14:33]
-   - State "Finish"     from "Plan"       [2018-08-17 Fri 14:33] \\
-     沟通完毕，等待样卡与标准文档
-** Finish 取POS设备
-   CLOSED: [2018-08-17 Fri 14:38]
-   - State "Finish"     from "Started"    [2018-08-17 Fri 14:38] \\
-     样机收到
    :LOGBOOK:
-   CLOCK: [2018-08-17 Fri 14:34]--[2018-08-17 Fri 14:38] =>  0:04
+   CLOCK: [2018-08-29 Wed 15:14]
+   CLOCK: [2018-08-29 Wed 14:10]--[2018-08-29 Wed 14:35] =>  0:25
    :END:
-   - State "Started"    from "Plan"       [2018-08-17 Fri 14:34]
-** Started M10海外项目 
-   SCHEDULED: <2018-09-10 Mon> DEADLINE: <2018-08-21 Tue 12:00>
-   - State "Started"    from "Delayed"    [2018-08-20 Mon 15:30]
-   - Note taken on [2018-08-17 Fri 14:39] \\
-     周天重新计划与安排时间
-   - State "Delayed"    from "Finish"     [2018-08-15 Wed 10:47] \\
-     等待样机
-   - State "Finish"     from "Delayed"    [2018-08-15 Wed 10:47]
-   - State "Delayed"    from "Started"    [2018-08-10 Fri 13:40] \\
-*** Started 安排开发接口 --  陈锦胜
+   - State "Started"    from              [2018-08-29 Wed 13:57]
+** Finish 月考核
+   CLOSED: [2018-08-30 Thu 17:35] DEADLINE: <2018-08-30 Thu> SCHEDULED: <2018-08-27 Mon>
+   - State "Finish"     from "Started"    [2018-08-30 Thu 17:35] \\
+     ok
+   :LOGBOOK:
+   CLOCK: [2018-08-30 Thu 15:02]--[2018-08-30 Thu 15:27] =>  0:25
+   :END:
+   - State "Started"    from              [2018-08-30 Thu 15:02]
+** 人寿台式自助项目计划[1/5]
+   DEADLINE: <2018-08-31 Fri> SCHEDULED: <2018-08-27 Mon>
+- [X] 打印机驱动 --- 黄炯华
+- [ ] 外观确认   --- 刘昀
+- [ ] 原理设备   --- 陈培德
+- [ ] 外设调用   --- 林信龙
+- [ ] 项目计划   --- 赖文辉
+** Finish 民生项目[4/4]
+   CLOSED: [2018-08-30 Thu 15:02] DEADLINE: <2018-08-31 Fri> SCHEDULED: <2018-08-27 Mon>
+   - State "Finish"     from              [2018-08-30 Thu 15:02] \\
+     ok
+- [X] 外观确认是否OK -- 乔菲尔
+- [X] MFi认证-茂森跟进(包括有线通讯)
+- [X] 接口开发调试 --- 何珏
+- [X] 民生样机寄回 --- 于冉
+** Finish 机器人接口问题排查
+   CLOSED: [2018-08-29 Wed 13:57] SCHEDULED: <2018-08-27 Mon> DEADLINE: <2018-08-31 Fri>
+   - State "Finish"     from              [2018-08-29 Wed 13:57] \\
+     已经安排汉杰处理
+** Finish vid 是否续费
+   CLOSED: [2018-08-29 Wed 13:57]
+   - State "Finish"     from "Delayed"    [2018-08-29 Wed 13:57] \\
+     永久使用，无需付费
+** Finish 吴哲厦门国际银行
+   CLOSED: [2018-08-29 Wed 13:58]
+   - State "Finish"     from              [2018-08-29 Wed 13:58] \\
+     吴哲自己处理
+** Finish 叶灵炜-黄炯华init项目安排
+   CLOSED: [2018-09-18 Tue 10:06] DEADLINE: <2018-08-31 Fri 12:00>
+   - State "Finish"     from              [2018-09-18 Tue 10:06]
+* September
+** first-week
+   :PROPERTIES:
+   :CATEGORY: work-week
+   :END:
+*** Plan 量化[0/3]
+    DEADLINE: <2018-09-07 Fri> SCHEDULED: <2018-09-03 Mon>
+**** Todo PYthon爬虫开发
+**** Todo 量化入门之python知识
+**** Todo 线性代数通用知识
 
-    - State "Started"    from "Plan"       [2018-08-20 Mon 15:31]
-    - State "Plan"       from              [2018-08-20 Mon 15:31]
-** Delayed 量化京东
-   DEADLINE: <2018-08-20 Mon 23:30> SCHEDULED: <2018-08-15 Wed>
+*** MFi认证
+**** MFi认证执行
+**** 认证相关知识
+*** Started 编写babyBlueTooth测试程序
+    DEADLINE: <2018-08-16 Thu 18:00>
+    - State "Started"    from "Plan"       [2018-08-17 Fri 15:24]
+    - State "Plan"       from "Todo"       [2018-08-16 Thu 13:41]
+*** Plan learning english
+**** Todo English grammar
+*** Plan logical thinking
+   将书本学完并总结
+*** Finish 邹池讨论一下海外项目需求问题
+    CLOSED: [2018-09-04 Tue 10:44] DEADLINE: <2018-09-09 Sun>
+    - State "Finish"     from "Todo"       [2018-09-04 Tue 10:44] \\
+      ok
+*** iOS模式设计
+** second-week
+** third-week
+*** Finish 汽车坐垫换洗
+    CLOSED: [2018-09-17 Mon 20:26]
+    - State "Finish"     from              [2018-09-17 Mon 20:26]
+*** Finish 人寿自助项目结项安排[1/1]
+**** Finish 电话会议
+     CLOSED: [2018-09-18 Tue 09:40]
+     - State "Finish"     from              [2018-09-18 Tue 09:40]
+CS端外设兼容性，BS业务快速更新
+IC卡卡号快速输入，但不能防伪                       
+**** 具体当面沟通
+*** Finish 红帽子文档重新学习
+    CLOSED: [2018-09-18 Tue 11:29] DEADLINE: <2018-09-18 Tue 11:50> SCHEDULED: <2018-09-18 Tue 10:00>
+    - State "Finish"     from "Todo"       [2018-09-18 Tue 11:29]
+*** Finish 产品认定标准学习
+    CLOSED: [2018-09-21 Fri 16:38]
+    - State "Finish"     from              [2018-09-21 Fri 16:38]
+*** Finish 中秋博饼安排
+    CLOSED: [2018-09-21 Fri 14:26]
+    - State "Finish"     from              [2018-09-21 Fri 14:26]
+**** 奖品采购
+**** Finish 经费申请
+     CLOSED: [2018-09-17 Mon 19:04]
+     - State "Finish"     from              [2018-09-17 Mon 19:04]
+**** Finish 博饼通知
+     CLOSED: [2018-09-19 Wed 15:23] SCHEDULED: <2018-09-19 Wed 10:00-12:00>
+     - State "Finish"     from "Plan"       [2018-09-19 Wed 15:23]
+     - State "Plan"       from              [2018-09-19 Wed 09:46]
+**** 打印博饼资料并分发  
+*** Finish 换净水器滤芯
+    CLOSED: [2018-09-21 Fri 14:27]
+    - State "Finish"     from              [2018-09-21 Fri 14:27]
 
-   - State "Delayed"    from "Plan"       [2018-08-16 Thu 09:15] \\
-     安排周天统一搞一下,完成PYthon爬虫开发
-*** Todo PYthon爬虫开发
-*** Todo 量化入门及相关安排计划
-** Delayed 民生接口开发
-   DEADLINE: <2018-08-16 Thu 18:00> SCHEDULED: <2018-09-13 Thu>
-   - State "Plan"       from "Todo"       [2018-08-17 Fri 09:07]
-** Started 编写babyBlueTooth测试程序
-   DEADLINE: <2018-08-16 Thu 18:00>
-   - State "Started"    from "Plan"       [2018-08-17 Fri 15:24]
-   - State "Plan"       from "Todo"       [2018-08-16 Thu 13:41]
-** Finish 时间管理学习、技能体系、文档整理
-   CLOSED: [2018-08-21 Tue 09:34] DEADLINE: <2018-08-16 Thu 23:00>
-   - State "Finish"     from "Started"    [2018-08-21 Tue 09:34] \\
-     就那样了吧
-   - State "Started"    from "Plan"       [2018-08-17 Fri 14:47]
-   - State "Plan"       from              [2018-08-15 Wed 15:29]
-** Plan Desktop self-service equipment plan
-   DEADLINE: <2018-08-16 Thu 18:00> SCHEDULED: <2018-08-15 Wed>
-   - State "Plan"       from "Todo"       [2018-08-21 Tue 09:35]
-** Plan learning english
-   - State "Plan"       from "Todo"       [2018-08-21 Tue 09:35]
-*** Todo English grammar
-** Finish ios pattern
-   CLOSED: [2018-08-21 Tue 10:36] DEADLINE: <2018-08-21 Tue 12:00>
-   - State "Finish"     from "Started"    [2018-08-21 Tue 10:36] \\
-     学完并画图
-   :LOGBOOK:
-   CLOCK: [2018-08-21 Tue 10:27]--[2018-08-21 Tue 10:36] =>  0:09
-   CLOCK: [2018-08-21 Tue 09:36]--[2018-08-21 Tue 10:01] =>  0:25
-   :END:
-   - State "Started"    from "Plan"       [2018-08-21 Tue 09:35]
-   - State "Plan"       from              [2018-08-21 Tue 09:13]
-** Plan logical thinking one chapter
-** Plan withdraw money
-   DEADLINE: <2018-08-21 Tue 12:10>
-** Finish learning LaTex
-   CLOSED: [2018-08-21 Tue 16:32] DEADLINE: <2018-08-21 Tue 18:00>
-   - State "Finish"     from "Started"    [2018-08-21 Tue 16:32] \\
-     掌握基本的语法与技巧
-   :LOGBOOK:
-   CLOCK: [2018-08-21 Tue 15:31]
-   CLOCK: [2018-08-21 Tue 13:59]--[2018-08-21 Tue 14:24] =>  0:25
-   :END:
-   - State "Started"    from "Plan"       [2018-08-21 Tue 10:45]
+*** Finish 邮件资料整理与归档（如陈培德的这些资料）
+    CLOSED: [2018-09-20 Thu 15:38] DEADLINE: <2018-09-18 Tue 15:00> SCHEDULED: <2018-09-18 Tue 13:30>
+    - State "Finish"     from "Todo"       [2018-09-20 Thu 15:38]
+*** Finish 部门博饼活动
+    CLOSED: [2018-09-21 Fri 14:27]
+    - State "Finish"     from              [2018-09-21 Fri 14:27]
+**** 邮件通知
+**** 订餐
+**** 采购
+
+*** Finish 非功能性需求（微信）
+    CLOSED: [2018-09-18 Tue 15:42] SCHEDULED: <2018-09-18 Tue 10:00> DEADLINE: <2018-09-18 Tue 11:50>
+    - State "Finish"     from "Todo"       [2018-09-18 Tue 15:42]
+
+*** Finish 微模块
+    CLOSED: [2018-09-20 Thu 15:33]
+    - State "Finish"     from              [2018-09-20 Thu 15:33]
+
+*** Finish 博饼费用统计
+    CLOSED: [2018-09-21 Fri 14:54]
+    - State "Finish"     from              [2018-09-21 Fri 14:54]
+  1. 大润发采购：3319.4+1894.9+114 = 
+  2. 京东：     733.49+1134.6 = 
+  3. 现金红包： 1000
+  共计： 8196.39元
+
+*** Finish anki使用
+    CLOSED: [2018-09-25 Tue 15:46]
+    - State "Finish"     from              [2018-09-25 Tue 15:46]
+** forth-week
+*** Finish 无纸化方案学习
+    CLOSED: [2018-09-27 Thu 10:40] SCHEDULED: <2018-09-26 Wed 10:00> DEADLINE: <2018-09-26 Wed 18:00>
+    - State "Finish"     from "Plan"       [2018-09-27 Thu 10:40]
+    - State "Plan"       from              [2018-09-26 Wed 09:40]
+*** 金融标准体系架构学习
+*** Todo MFi相关资料收集
+    DEADLINE: <2018-09-18 Tue>
+*** git开发流与驻外人员源码管理标准
+*** 如何与西南人员对接考虑
+先了解沟通一下那边对研发有啥要求的事情，先熟悉一下。
+1. 希望协助培养技术支持人员，能够对简单的抓包数据进行分析
+2. 售前这块，希望研发能够现在与客户进行交流
+3. 研发资料及时更新（SDK，FAQ)
+*** eid研究与CCID
+*** 陈文斌印控仪项目沟通
+*** Plan 人员面试问题，顺利一下人员安排等及人员技术规划
+    SCHEDULED: <2018-09-26 Wed 10:00> DEADLINE: <2018-09-26 Wed 18:00>
+    - State "Plan"       from "Todo"       [2018-09-26 Wed 09:40]
+*** 出差报告模板
+*** 陈文斌印控问题
+*** 反省
+1. 工作安排
+2. 业余项目安排
+3. 执行力
+4. 目标等
+5. 如何让自己进入飞轮状态， 不想做又来不及，该运动了*** 总结PPT计划回顾
+*** 申请单问题复盘
+*** android 入门
+*** 安排好人工智能、数学、量化的学习
+*** Finish 考核
+    CLOSED: [2018-09-26 Wed 17:07] DEADLINE: <2018-09-26 Wed 17:00> SCHEDULED: <2018-09-26 Wed 10:00>
+
+    - State "Finish"     from "Plan"       [2018-09-26 Wed 17:07]
+    - State "Plan"       from              [2018-09-26 Wed 09:38]
+*** Finish 线性代数flashcard
+    CLOSED: [2018-09-27 Thu 09:43] SCHEDULED: <2018-09-26 Wed 10:00> DEADLINE: <2018-09-26 Wed 23:00>
+    - State "Finish"     from "Plan"       [2018-09-27 Thu 09:43]
+    - State "Plan"       from              [2018-09-26 Wed 09:39]
+*** Finish 杨航沟通交流
+    CLOSED: [2018-09-26 Wed 17:07]
+    - State "Finish"     from              [2018-09-26 Wed 17:07
+*** Plan 月结
+    DEADLINE: <2018-09-27 Thu 18:00> SCHEDULED: <2018-09-27 Thu 14:00>
+    - State "Plan"       from              [2018-09-27 Thu 09:43]
+*** Finish 实习生工作安排与辅助周报
+    CLOSED: [2018-09-27 Thu 14:34] SCHEDULED: <2018-09-27 Thu 10:00-12:00>
+    - State "Finish"     from "Plan"       [2018-09-27 Thu 14:34]
+    - State "Plan"       from              [2018-09-27 Thu 09:42]

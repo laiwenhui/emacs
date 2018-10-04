@@ -2,7 +2,42 @@
 ;;; This format is meant to be slightly human-readable;
 ;;; nevertheless, you probably don't want to edit it.
 ;;; -*- End Of Bookmark File Format Version Stamp -*-
-(("base-config"
+(("xxds"
+ (filename . "~/math/linear-algebra/linear-algebra.org")
+ (front-context-string . "#+TITLE: \347\272\277\346\200\247\344\273\243\346\225\260\n#+")
+ (rear-context-string)
+ (position . 1))
+("tm"
+ (filename . "~/.emacs.d/init/init-helm-config.el")
+ (front-context-string . ")\n\n\n(helm-autore")
+ (rear-context-string . "woop\n  :ensure t")
+ (position . 409))
+("desktop"
+ (filename . "~/Desktop/")
+ (front-context-string . "$RECYCLE.BIN\n  d")
+ (rear-context-string . "6B Jul  5  2017 ")
+ (position . 137))
+("temp"
+ (filename . "~/temp/")
+ (front-context-string . ".DS_Store\n  -rw-")
+ (rear-context-string . "0K Aug 24 22:14 ")
+ (position . 243))
+("tensorflow"
+ (filename . "~/TensorFlow/test/test.org")
+ (front-context-string . "python :session ")
+ (rear-context-string)
+ (position . 13))
+("company-config"
+ (filename . "~/.emacs.d/init/init-company-config.el")
+ (front-context-string . "(use-package com")
+ (rear-context-string)
+ (position . 1))
+("auctex-config"
+ (filename . "~/.emacs.d/init/init-auctex-config.el")
+ (front-context-string . "(load \"auctex.el")
+ (rear-context-string)
+ (position . 1))
+("base-config"
  (filename . "~/.emacs.d/init/init-base-config.el")
  (front-context-string . "(require 'packag")
  (rear-context-string)
@@ -33,10 +68,10 @@
  (rear-context-string . "2018-08-15 Wed>\n")
  (position . 13033))
 ("org-capture-last-stored"
- (filename . "~/.emacs.d/org/gtd/TechnicalSupport.org")
- (front-context-string . "| \345\256\211\345\276\275\345\214\272\345\237\237 | \345\276\256\344\277\241\345\212\240\347\224\265\350\257\235 |")
- (rear-context-string . "\344\274\232\345\204\277paper\n\n** 08\346\234\210\n")
- (position . 228))
+ (filename . "~/.emacs.d/org/gtd/inbox.org")
+ (front-context-string . "** 桌角防护泡沫 \n   [2")
+ (rear-context-string . "top/.DS_Store]]\n")
+ (position . 265))
 ("test.py"
  (filename . "~/MyNotes/technique/python/python.py")
  (front-context-string . "from functools i")

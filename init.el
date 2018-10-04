@@ -1,4 +1,3 @@
-
 ;; Added by Package.el.  This must come before configurations of
 ;; installed packages.  Don't delete this line.  If you don't want it,
 ;; just comment it out by adding a semicolon to the start of the line.
@@ -29,11 +28,12 @@
 (require 'init-undo-tree-config)
 ;;=========================================================================
 ;;(require 'init-c-lang-config)
-(require 'init-helm-config)
 (require 'init-company-config)
 (require 'init-org-mode-config)
 (require 'init-python-config)
 (require 'init-auctex-config)
+(require 'init-helm-config)
+(require 'init-eshell-config)
 ;;=======================================
 (require 'init-customize-config)
 (require 'init-shortcut-config)
@@ -48,7 +48,8 @@
  ;; If there is more than one, they won't work right.
  '(package-selected-packages
    (quote
-    (company-auctex Pymacs python-mode ox-latex cal-china-x latex-preview-pane latex-math-preview cdlatex helm-replace-string better-defaults company-anaconda multiple-cursors erc-terminal-notifier org-pomodoro tex auctex ag helm-projectile-ag projectile-ag helm-descbinds helm-dash flx-ido helm-ag markdown-mode flymd autopair helm-google graphviz-dot-mode anaconda-mode treemacs-projectile treemacs spacemacs-theme))))
+    (request anki-editor eshell-prompt-extras xah-find replace-symbol helm-swoop org-cdlatex org2blog elpy eply company-quickhelp company-jedi ob-ipython company-auctex Pymacs python-mode ox-latex cal-china-x latex-preview-pane latex-math-preview cdlatex helm-replace-string better-defaults company-anaconda multiple-cursors erc-terminal-notifier org-pomodoro tex auctex ag helm-projectile-ag projectile-ag helm-descbinds helm-dash flx-ido helm-ag markdown-mode flymd autopair helm-google graphviz-dot-mode anaconda-mode treemacs-projectile treemacs spacemacs-theme)))
+ '(py-shell-switch-buffers-on-execute nil))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.

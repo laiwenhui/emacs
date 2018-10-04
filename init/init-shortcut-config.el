@@ -50,9 +50,12 @@
 (global-set-key (kbd "\e \e") 'my-set-read-only-mode)
 
 
+
 ;;配置helm
-(global-set-key (kbd "C-r") 'replace-string)
-(global-set-key (kbd "C-s") 'helm-occur)
+(global-set-key (kbd "C-r") 'xah-find-replace-text)
+;;(global-set-key (kbd "C-r") 'replace-string)
+(global-set-key (kbd "C-s") 'helm-swoop)
+;;(global-set-key (kbd "C-s") 'helm-occur)
 (global-set-key (kbd "M-y") 'helm-show-kill-ring)
 (global-set-key (kbd "C-x b") 'ibuffer)
 (global-set-key (kbd "C-x C-b") 'ibuffer)
